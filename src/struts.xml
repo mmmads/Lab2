@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.5.dtd 
+
+">
+<struts>
+
+	<package name="action" namespace="/" extends="struts-default">
+	    <action name="MainPage" class="action.MainPageAction">
+            <result name="login">/login.jsp</result>
+        </action>
+        <action name="AuthorTitle" class="action.AuthorTitleAction">
+            <result name="a_t">/author_titles.jsp</result>
+        </action>
+        <action name="BookDetail" class="action.BookDetailAction">
+            <result name="b_d">/book_detail.jsp</result>
+        </action>
+        <action name="DeleteBook" class="action.DeleteBookAction">
+            <result name="d_b">/delete_book.jsp</result>
+        </action>
+        <action name="Back" class="action.BackAction">
+            <result name="back">/login.jsp</result>
+        </action>
+        <action name="AddBook" class="action.AddBookAction">
+            <result name="a_b">/add_book.jsp</result>
+        </action>
+        <action name="Add" class="action.AddAction">
+            <result name="add">/add.jsp</result>
+        </action>
+        <action name="UpdateBook" class="action.UpdateBookAction">
+            <result name="u_b">/update_book.jsp</result>
+        </action>
+        <action name="Update" class="action.UpdateAction">
+            <result name="update">/update.jsp</result>
+        </action>
+        <action name="AllBook" class="action.AllBookAction">
+            <result name="allbook">/allbook.jsp</result>
+        </action>
+    </package>
+    
+    
+
+
+</struts>
