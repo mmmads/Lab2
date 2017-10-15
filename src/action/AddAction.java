@@ -5,7 +5,6 @@ import com.opensymphony.xwork2.ActionSupport;
 
 import dao.BookDao;
 
-//ÃÌº” ÈºÆ
 public class AddAction extends ActionSupport{
 	
 	/**
